@@ -1,0 +1,107 @@
+.mainCon {
+  margin: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  font-family: Roboto;
+}
+.innerCon {
+  width: 90vw;
+  min-height: 80vh;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 5vw;
+}
+.firstCon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.mainImg {
+  width: 30vw;
+  order: 1;
+}
+.formCon {
+  display: flex;
+  flex-direction: column;
+}
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mainH {
+  font-size: 3vw;
+  color: #171f46;
+}
+.labelEl {
+  font-size: 1.2vw;
+  color: #b5b7c4;
+}
+.inputEl {
+  color: #9897f0;
+  font-size: 1.5vw;
+  margin-bottom: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1.5px solid #b5b7c4;
+  border-radius: 5px;
+}
+.bton {
+  color: white;
+  background-color: #8b5cf6;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  font-size: 1.2vw;
+  border-radius: 8px;
+}
+.secondCon {
+  padding-top: 10px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subH {
+  color: #171f46;
+  font-size: 2vw;
+}
+.fliterBton {
+  color: #9897f0;
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5vw;
+  border: 1px solid #9897f0;
+  border-radius: 15px;
+}
+.actived {
+  color: white;
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 15px;
+  background-color: #9897f0;
+}
+.listCon {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
